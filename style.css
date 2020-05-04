@@ -1,0 +1,297 @@
+.body{
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  overflow-x: hidden;
+  background: #fff;
+}
+/* navigation*/
+#nav
+{
+  background:#fff; 
+  border:solid 0px;
+  padding:10px;
+  height:120px;
+}
+.bg-poster
+{
+  background: url("images/bg1.jpg");
+  
+  width:100%;
+  height:494px;
+  clear:both;
+}
+
+/* logo */
+#myNavbar
+{
+  padding:30px;
+  
+}
+#myNavBar:collapse
+{
+  background: #fff;
+  z-index:2000;
+  position: absolute;
+  width:100%;
+
+}
+#nav-link
+{
+  text-transform: uppercase;
+  font-weight: 700;
+  padding:10px;
+  margin-top:40px;
+  margin-left:6%;
+  font-family: 'Roboto', sans-serif;
+  font-size:16px;
+  font-weight: normal;
+
+}
+#nav-link .alink
+{
+  padding:6px 18px;
+  color:#000;
+}
+#nav-link .alink:hover
+{
+  color:#ff13a7;
+  text-decoration: none;
+}
+#btn-right
+{
+  margin-top:45px;
+  float:right;
+  background: #2a2a2a;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  padding:10px 15px;
+}
+#btn-right a,#btn-right a:hover
+{
+  color:#fff;
+}
+#nav-btn
+{
+  margin-top:50px;
+}
+
+
+/* serivce */
+.content
+{
+  text-align: center;
+  clear:both;
+  float:none;
+  padding:5%; 
+}
+.service
+{
+
+  
+}
+.h1-heading
+{
+  font-family: 'Lovers Quarrel', cursive;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 40px;
+  color: #bf7540;
+  padding-bottom: 0;
+  line-height: 0.3;
+}
+.bg-rev
+{
+  background: #f9f1ec;
+}
+.h2-heading
+{
+  font-size:55px;
+  margin-bottom: 5%;
+  padding:0;
+  line-height:0.4;
+  font-family: adobe-garamod-pro,serif;
+  font-size:#2a2a2a;
+}
+
+.main-img-about
+{
+  width:90%;
+}
+/* about */
+.about
+{
+  padding:5% 15%;
+}
+.about img
+{
+  width:100%;
+}
+/*contact */
+.contact
+{
+  padding:10%;
+  color:#000;
+  font-family: sans-serif;
+  height: 100%;
+}
+.let
+{
+  line-height: 0.4;
+  font-size:20px;
+}
+.contact-heading
+{
+  line-height: 0.4;
+  font-size:60px;
+  font-family: sans-serif;
+  font-weight: bold;
+  letter-spacing:-5px;
+}
+.contact-cnt
+{
+  margin-top:3%;
+  padding:1%;
+}
+#drop
+{
+  font-size: 40px;
+  line-height: 40px;
+}
+.contact-cnt .let
+{
+  line-height: 1px;
+}
+.form-cnt
+{
+  padding:5%;
+
+}
+#btn-frm 
+{
+  background:#ff13a7;
+  border:solid 1px #ff13a7;
+  color:#fff;
+  width:100%;
+}
+/* portfolio */
+.portfolio
+{
+  
+  padding:5%;
+}
+/* images */
+.image-cnt
+{
+  height:450px;
+  width:100%;
+  padding:5%;
+}
+.image-cnt-2
+{
+  height:650px;
+  width:100%;
+  padding:3%;
+}
+.image-cnt:hover
+{
+  padding:7%;
+  transition: 0.5s
+}
+.image-cnt-2:hover
+{
+  padding:5%;
+  transition: 0.5s
+}
+/* pre footer */
+.pre-footer
+{
+  padding:5%;
+  background: #f9f1ec;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+.banner-img
+{
+  width:100%;
+  padding:2% 5%;
+  height:300px;
+  
+}
+.banner-address-info
+{
+  border-left:solid 2px #000;
+}
+.banner-heading
+{
+  font-size:24px;
+  font-weight: bold;
+}
+/* footer */
+.footer-cnt
+{
+  padding:5%;
+  background:#141414;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  text-align: center;
+  
+}
+.footer-cnt .alink,.footer-cnt p,.footer-cnt span
+{
+  color:#a6a6a6;
+}
+.footer-cnt h1
+{
+  color:#fff;
+
+}
+.footer-cnt .alink
+{
+  font-size:16px;
+  padding:5px;
+  font-weight:normal;
+  text-transform: uppercase;
+}
+.footer-cnt .alink:hover
+{
+  text-decoration: none;
+  color:#DFBA9F;
+}
+.footer-cnt h4
+{
+  color:#DFBA9F;
+  font-size:28px;
+  padding-bottom:10px;
+}
+.footer-cnt h4::after {
+    content: "";
+    display: inline-block;
+    border-top: 1px solid #dfba9f;
+    border-top-color: rgb(223, 186, 159);
+    border-color: #dfba9f;
+    border-color: var(--main);
+    width: 120px;
+    padding-bottom: 8px;
+    margin-left: 20px;
+}
+.footer-cnt .col-md-4
+{
+  padding:2%;
+}
+.footer-cnt .fa
+{
+  color:#dfba9f;
+  padding:0 8px;
+}
+.info
+{
+  margin:10px;
+  font-size:16px;
+}
+/* social icons */
+.social-icons a
+{
+  padding:4px 8px;
+  font-size:18px;
+  margin:20px 5px;
+}
